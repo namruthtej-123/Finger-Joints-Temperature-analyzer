@@ -1,0 +1,15 @@
+[server]
+maxUploadSize = 1000          # MB per uploaded file (videos / radiometric .npy)
+headless = true
+enableXsrfProtection = true
+fileWatcherType = "none"
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "light"
+primaryColor = "#2a6fc9"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f6f6f5"
+textColor = "#1d1d1b"
